@@ -1,0 +1,37 @@
+nav {
+  background-color: #4a4a4a;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5vh 1vw;
+}
+
+.sign-btn {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  color: #4a4a4a;
+  height: 40px;
+  width: 80px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 20px auto;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgba(128, 128, 128, 0.514);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.514);
+}
+.navbar__item {
+  margin: 5px 15px;
+  color: black
+}
+.navbar__item-active {
+  margin: 5px 15px;
+  border-bottom: 1px solid grey;
+  color: black;
+}

@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 80vw;
+  margin: 0 auto;
+}
+.items-list {
+  overflow: auto;
+  width: 100%;
+  height: 80vh;
+  margin-top: 10px;
+}
+.items-list::-webkit-scrollbar {
+  width: 5px;
+  height: 20px;
+}
+.items-list::-webkit-scrollbar-thumb {
+  border-width: 1px 1px 1px 2px;
+  border-radius: 2px;
+  border-color: #777;
+  background-color: #aaa;
+}
+.items-list::-webkit-scrollbar-track {
+  border-width: 0;
+}
+.products-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
